@@ -1,0 +1,1143 @@
+{
+  "users": [
+    {
+      "_id": "jm3x8r3tomq6ni1ng",
+      "createdAt": "2026-06-09T13:03:41.020Z",
+      "name": "AgriAI System Admin",
+      "email": "admin@agriai.com",
+      "password": "$2a$10$FS/bfJt8EyRxq1UxR12tn.RLLs3WvHiNPL1OUea2.IMlIrWYnaw2W",
+      "role": "admin",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80",
+      "phone": "+1 (555) 123-4567",
+      "location": "California, US"
+    },
+    {
+      "_id": "a2x5rjiezmq6ni1ni",
+      "createdAt": "2026-06-09T13:03:41.022Z",
+      "name": "John Doe (Farmer)",
+      "email": "farmer@agriai.com",
+      "password": "$2a$10$FS/bfJt8EyRxq1UxR12tn.V1oZ7mkGd0xskn98/23zRV4PiP4S8/q",
+      "role": "user",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80",
+      "phone": "+1 (555) 987-6543",
+      "location": "Green Valley Farmland"
+    }
+  ],
+  "predictions": [
+    {
+      "_id": "q1fgro3whmq6ni1ns",
+      "createdAt": "2026-06-09T13:03:41.032Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "crop",
+      "nitrogen": 50,
+      "phosphorus": 30,
+      "potassium": 20,
+      "temperature": 20,
+      "humidity": 60,
+      "ph": 5.5,
+      "rainfall": 80,
+      "crop": "Rice",
+      "confidence": 85
+    },
+    {
+      "_id": "uws2yhkgtmq6ni1nt",
+      "createdAt": "2026-06-09T13:03:41.033Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "yield",
+      "yieldCropType": "Rice",
+      "yieldArea": 2,
+      "yieldSoilQuality": "Good",
+      "temperature": 22,
+      "rainfall": 90,
+      "yieldEstimatedOutput": 10,
+      "yieldRevenue": 3500,
+      "yieldProfit": 2000
+    },
+    {
+      "_id": "lxxmo26eomq6ni1nu",
+      "createdAt": "2026-06-09T13:03:41.034Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "crop",
+      "nitrogen": 57,
+      "phosphorus": 39,
+      "potassium": 31,
+      "temperature": 21,
+      "humidity": 61,
+      "ph": 6,
+      "rainfall": 95,
+      "crop": "Maize",
+      "confidence": 87.3
+    },
+    {
+      "_id": "bqia09zhgmq6ni1nv",
+      "createdAt": "2026-06-09T13:03:41.035Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "crop",
+      "nitrogen": 64,
+      "phosphorus": 48,
+      "potassium": 42,
+      "temperature": 22,
+      "humidity": 62,
+      "ph": 6.5,
+      "rainfall": 110,
+      "crop": "Coffee",
+      "confidence": 89.6
+    },
+    {
+      "_id": "o9q7filu2mq6ni1nw",
+      "createdAt": "2026-06-09T13:03:41.036Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "yield",
+      "yieldCropType": "Coffee",
+      "yieldArea": 4,
+      "yieldSoilQuality": "Medium",
+      "temperature": 24,
+      "rainfall": 110,
+      "yieldEstimatedOutput": 15,
+      "yieldRevenue": 30000,
+      "yieldProfit": 18000
+    },
+    {
+      "_id": "7h6emg0ytmq6ni1nx",
+      "createdAt": "2026-06-09T13:03:41.037Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "crop",
+      "nitrogen": 71,
+      "phosphorus": 57,
+      "potassium": 53,
+      "temperature": 23,
+      "humidity": 63,
+      "ph": 5.5,
+      "rainfall": 125,
+      "crop": "Cotton",
+      "confidence": 91.9
+    },
+    {
+      "_id": "czxq5fuwfmq6ni1ny",
+      "createdAt": "2026-06-09T13:03:41.038Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "crop",
+      "nitrogen": 78,
+      "phosphorus": 66,
+      "potassium": 64,
+      "temperature": 24,
+      "humidity": 64,
+      "ph": 6,
+      "rainfall": 140,
+      "crop": "Grapes",
+      "confidence": 94.2
+    },
+    {
+      "_id": "9ca16jngemq6ni1nz",
+      "createdAt": "2026-06-09T13:03:41.039Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "yield",
+      "yieldCropType": "Grapes",
+      "yieldArea": 2,
+      "yieldSoilQuality": "Medium",
+      "temperature": 26,
+      "rainfall": 130,
+      "yieldEstimatedOutput": 20,
+      "yieldRevenue": 7000,
+      "yieldProfit": 4000
+    },
+    {
+      "_id": "1r14ck1utmq6ni1o0",
+      "createdAt": "2026-06-09T13:03:41.040Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "crop",
+      "nitrogen": 85,
+      "phosphorus": 35,
+      "potassium": 75,
+      "temperature": 25,
+      "humidity": 65,
+      "ph": 6.5,
+      "rainfall": 155,
+      "crop": "Pomegranate",
+      "confidence": 96.5
+    },
+    {
+      "_id": "kzgwnus7mmq6ni1o1",
+      "createdAt": "2026-06-09T13:03:41.041Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "crop",
+      "nitrogen": 92,
+      "phosphorus": 44,
+      "potassium": 26,
+      "temperature": 26,
+      "humidity": 66,
+      "ph": 5.5,
+      "rainfall": 170,
+      "crop": "Rice",
+      "confidence": 98.8
+    },
+    {
+      "_id": "dacnz50bnmq6ni1o2",
+      "createdAt": "2026-06-09T13:03:41.042Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "yield",
+      "yieldCropType": "Rice",
+      "yieldArea": 4,
+      "yieldSoilQuality": "Good",
+      "temperature": 23,
+      "rainfall": 150,
+      "yieldEstimatedOutput": 25,
+      "yieldRevenue": 8750,
+      "yieldProfit": 5000
+    },
+    {
+      "_id": "bz09c7miymq6ni1o3",
+      "createdAt": "2026-06-09T13:03:41.043Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "crop",
+      "nitrogen": 99,
+      "phosphorus": 53,
+      "potassium": 37,
+      "temperature": 27,
+      "humidity": 67,
+      "ph": 6,
+      "rainfall": 185,
+      "crop": "Maize",
+      "confidence": 86.6
+    },
+    {
+      "_id": "l6x8pkd7gmq6ni1o4",
+      "createdAt": "2026-06-09T13:03:41.044Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "crop",
+      "nitrogen": 56,
+      "phosphorus": 62,
+      "potassium": 48,
+      "temperature": 20,
+      "humidity": 68,
+      "ph": 6.5,
+      "rainfall": 200,
+      "crop": "Coffee",
+      "confidence": 88.9
+    },
+    {
+      "_id": "thh0srt5gmq6ni1o4",
+      "createdAt": "2026-06-09T13:03:41.044Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "yield",
+      "yieldCropType": "Coffee",
+      "yieldArea": 2,
+      "yieldSoilQuality": "Medium",
+      "temperature": 25,
+      "rainfall": 170,
+      "yieldEstimatedOutput": 30,
+      "yieldRevenue": 60000,
+      "yieldProfit": 36000
+    },
+    {
+      "_id": "4xz6ms5bhmq6ni1o5",
+      "createdAt": "2026-06-09T13:03:41.045Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "crop",
+      "nitrogen": 63,
+      "phosphorus": 31,
+      "potassium": 59,
+      "temperature": 21,
+      "humidity": 69,
+      "ph": 5.5,
+      "rainfall": 215,
+      "crop": "Cotton",
+      "confidence": 91.2
+    },
+    {
+      "_id": "ueazlz1n7mq6ni1o6",
+      "createdAt": "2026-06-09T13:03:41.046Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "crop",
+      "nitrogen": 70,
+      "phosphorus": 40,
+      "potassium": 70,
+      "temperature": 22,
+      "humidity": 70,
+      "ph": 6,
+      "rainfall": 80,
+      "crop": "Grapes",
+      "confidence": 93.5
+    },
+    {
+      "_id": "ov64ye6wamq6ni1o7",
+      "createdAt": "2026-06-09T13:03:41.047Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "yield",
+      "yieldCropType": "Grapes",
+      "yieldArea": 4,
+      "yieldSoilQuality": "Medium",
+      "temperature": 22,
+      "rainfall": 90,
+      "yieldEstimatedOutput": 35,
+      "yieldRevenue": 12250,
+      "yieldProfit": 7000
+    },
+    {
+      "_id": "6tc735vqkmq6ni1o8",
+      "createdAt": "2026-06-09T13:03:41.048Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "crop",
+      "nitrogen": 77,
+      "phosphorus": 49,
+      "potassium": 21,
+      "temperature": 23,
+      "humidity": 71,
+      "ph": 6.5,
+      "rainfall": 95,
+      "crop": "Pomegranate",
+      "confidence": 95.8
+    },
+    {
+      "_id": "4wn0xby12mq6ni1o9",
+      "createdAt": "2026-06-09T13:03:41.049Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "crop",
+      "nitrogen": 84,
+      "phosphorus": 58,
+      "potassium": 32,
+      "temperature": 24,
+      "humidity": 72,
+      "ph": 5.5,
+      "rainfall": 110,
+      "crop": "Rice",
+      "confidence": 98.1
+    },
+    {
+      "_id": "yvazhsri4mq6ni1ob",
+      "createdAt": "2026-06-09T13:03:41.051Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "yield",
+      "yieldCropType": "Rice",
+      "yieldArea": 2,
+      "yieldSoilQuality": "Good",
+      "temperature": 24,
+      "rainfall": 110,
+      "yieldEstimatedOutput": 40,
+      "yieldRevenue": 14000,
+      "yieldProfit": 8000
+    },
+    {
+      "_id": "vz89tsvrbmq6ni1oc",
+      "createdAt": "2026-06-09T13:03:41.052Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "crop",
+      "nitrogen": 91,
+      "phosphorus": 67,
+      "potassium": 43,
+      "temperature": 25,
+      "humidity": 73,
+      "ph": 6,
+      "rainfall": 125,
+      "crop": "Maize",
+      "confidence": 85.9
+    },
+    {
+      "_id": "rom1c7crkmq6ni1od",
+      "createdAt": "2026-06-09T13:03:41.053Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "crop",
+      "nitrogen": 98,
+      "phosphorus": 36,
+      "potassium": 54,
+      "temperature": 26,
+      "humidity": 74,
+      "ph": 6.5,
+      "rainfall": 140,
+      "crop": "Coffee",
+      "confidence": 88.2
+    },
+    {
+      "_id": "etpeztav5mq6ni1oe",
+      "createdAt": "2026-06-09T13:03:41.054Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "yield",
+      "yieldCropType": "Coffee",
+      "yieldArea": 4,
+      "yieldSoilQuality": "Medium",
+      "temperature": 26,
+      "rainfall": 130,
+      "yieldEstimatedOutput": 45,
+      "yieldRevenue": 90000,
+      "yieldProfit": 54000
+    },
+    {
+      "_id": "llessysm5mq6ni1oe",
+      "createdAt": "2026-06-09T13:03:41.054Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "crop",
+      "nitrogen": 55,
+      "phosphorus": 45,
+      "potassium": 65,
+      "temperature": 27,
+      "humidity": 75,
+      "ph": 5.5,
+      "rainfall": 155,
+      "crop": "Cotton",
+      "confidence": 90.5
+    },
+    {
+      "_id": "9tbdskvuzmq6ni1of",
+      "createdAt": "2026-06-09T13:03:41.055Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "crop",
+      "nitrogen": 62,
+      "phosphorus": 54,
+      "potassium": 76,
+      "temperature": 20,
+      "humidity": 76,
+      "ph": 6,
+      "rainfall": 170,
+      "crop": "Grapes",
+      "confidence": 92.8
+    },
+    {
+      "_id": "yqopsq4f3mq6ni1og",
+      "createdAt": "2026-06-09T13:03:41.056Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "yield",
+      "yieldCropType": "Grapes",
+      "yieldArea": 2,
+      "yieldSoilQuality": "Medium",
+      "temperature": 23,
+      "rainfall": 150,
+      "yieldEstimatedOutput": 50,
+      "yieldRevenue": 17500,
+      "yieldProfit": 10000
+    },
+    {
+      "_id": "3o0mazjqbmq6ni1oh",
+      "createdAt": "2026-06-09T13:03:41.057Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "crop",
+      "nitrogen": 69,
+      "phosphorus": 63,
+      "potassium": 27,
+      "temperature": 21,
+      "humidity": 77,
+      "ph": 6.5,
+      "rainfall": 185,
+      "crop": "Pomegranate",
+      "confidence": 95.1
+    },
+    {
+      "_id": "kfp739dmemq6ni1oi",
+      "createdAt": "2026-06-09T13:03:41.058Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "crop",
+      "nitrogen": 76,
+      "phosphorus": 32,
+      "potassium": 38,
+      "temperature": 22,
+      "humidity": 78,
+      "ph": 5.5,
+      "rainfall": 200,
+      "crop": "Rice",
+      "confidence": 97.4
+    },
+    {
+      "_id": "se54jofwdmq6ni1ok",
+      "createdAt": "2026-06-09T13:03:41.060Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "yield",
+      "yieldCropType": "Rice",
+      "yieldArea": 4,
+      "yieldSoilQuality": "Good",
+      "temperature": 25,
+      "rainfall": 170,
+      "yieldEstimatedOutput": 55,
+      "yieldRevenue": 19250,
+      "yieldProfit": 11000
+    },
+    {
+      "_id": "l8xd2sbnkmq6ni1ok",
+      "createdAt": "2026-06-09T13:03:41.060Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "crop",
+      "nitrogen": 83,
+      "phosphorus": 41,
+      "potassium": 49,
+      "temperature": 23,
+      "humidity": 79,
+      "ph": 6,
+      "rainfall": 215,
+      "crop": "Maize",
+      "confidence": 85.2
+    },
+    {
+      "_id": "8kb4qoatcmq6ni1ol",
+      "createdAt": "2026-06-09T13:03:41.061Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "crop",
+      "nitrogen": 90,
+      "phosphorus": 50,
+      "potassium": 60,
+      "temperature": 24,
+      "humidity": 80,
+      "ph": 6.5,
+      "rainfall": 80,
+      "crop": "Coffee",
+      "confidence": 87.5
+    },
+    {
+      "_id": "ukw5p2m5jmq6ni1om",
+      "createdAt": "2026-06-09T13:03:41.062Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "yield",
+      "yieldCropType": "Coffee",
+      "yieldArea": 2,
+      "yieldSoilQuality": "Medium",
+      "temperature": 22,
+      "rainfall": 90,
+      "yieldEstimatedOutput": 60,
+      "yieldRevenue": 120000,
+      "yieldProfit": 72000
+    },
+    {
+      "_id": "zjb0f0waxmq6ni1oo",
+      "createdAt": "2026-06-09T13:03:41.064Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "crop",
+      "nitrogen": 97,
+      "phosphorus": 59,
+      "potassium": 71,
+      "temperature": 25,
+      "humidity": 81,
+      "ph": 5.5,
+      "rainfall": 95,
+      "crop": "Cotton",
+      "confidence": 89.8
+    },
+    {
+      "_id": "40taitwmqmq6ni1op",
+      "createdAt": "2026-06-09T13:03:41.065Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "crop",
+      "nitrogen": 54,
+      "phosphorus": 68,
+      "potassium": 22,
+      "temperature": 26,
+      "humidity": 82,
+      "ph": 6,
+      "rainfall": 110,
+      "crop": "Grapes",
+      "confidence": 92.1
+    },
+    {
+      "_id": "62aau0m32mq6ni1oq",
+      "createdAt": "2026-06-09T13:03:41.066Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "yield",
+      "yieldCropType": "Grapes",
+      "yieldArea": 4,
+      "yieldSoilQuality": "Medium",
+      "temperature": 24,
+      "rainfall": 110,
+      "yieldEstimatedOutput": 65,
+      "yieldRevenue": 22750,
+      "yieldProfit": 13000
+    },
+    {
+      "_id": "6okzvwem6mq6ni1or",
+      "createdAt": "2026-06-09T13:03:41.067Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "crop",
+      "nitrogen": 61,
+      "phosphorus": 37,
+      "potassium": 33,
+      "temperature": 27,
+      "humidity": 83,
+      "ph": 6.5,
+      "rainfall": 125,
+      "crop": "Pomegranate",
+      "confidence": 94.4
+    },
+    {
+      "_id": "mz88g60xsmq6nrl42",
+      "createdAt": "2026-06-09T13:11:06.146Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "crop",
+      "nitrogen": 90,
+      "phosphorus": 42,
+      "potassium": 43,
+      "temperature": 20,
+      "humidity": 82,
+      "ph": 6.5,
+      "rainfall": 202,
+      "crop": "rice",
+      "confidence": 89.03
+    },
+    {
+      "_id": "5pgbzinq3mq6o3c67",
+      "createdAt": "2026-06-09T13:20:14.431Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "fertilizer",
+      "nitrogen": 50,
+      "phosphorus": 50,
+      "potassium": 50,
+      "fertilizerRecommendations": [
+        {
+          "nutrient": "Nitrogen (N)",
+          "status": "low",
+          "value": 50,
+          "recommendedFertilizer": "Urea (46% Nitrogen)",
+          "applicationRate": "45 kg/hectare"
+        },
+        {
+          "nutrient": "Phosphorus (P)",
+          "status": "optimal",
+          "value": 50,
+          "recommendedFertilizer": "Bone Meal / Maintenance dose",
+          "applicationRate": "15 kg/hectare"
+        },
+        {
+          "nutrient": "Potassium (K)",
+          "status": "optimal",
+          "value": 50,
+          "recommendedFertilizer": "Wood Ash / Maintenance dose",
+          "applicationRate": "15 kg/hectare"
+        }
+      ]
+    },
+    {
+      "_id": "744wcgpbsmq6o4w62",
+      "createdAt": "2026-06-09T13:21:27.002Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "fertilizer",
+      "nitrogen": 50,
+      "phosphorus": 50,
+      "potassium": 50,
+      "fertilizerRecommendations": [
+        {
+          "nutrient": "Nitrogen (N)",
+          "status": "low",
+          "value": 50,
+          "recommendedFertilizer": "Urea (46% Nitrogen)",
+          "applicationRate": "45 kg/hectare"
+        },
+        {
+          "nutrient": "Phosphorus (P)",
+          "status": "optimal",
+          "value": 50,
+          "recommendedFertilizer": "Bone Meal / Maintenance dose",
+          "applicationRate": "15 kg/hectare"
+        },
+        {
+          "nutrient": "Potassium (K)",
+          "status": "optimal",
+          "value": 50,
+          "recommendedFertilizer": "Wood Ash / Maintenance dose",
+          "applicationRate": "15 kg/hectare"
+        }
+      ]
+    },
+    {
+      "_id": "o2ux1tlrbmq6o69ji",
+      "createdAt": "2026-06-09T13:22:30.990Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "fertilizer",
+      "nitrogen": 30,
+      "phosphorus": 65,
+      "potassium": 60,
+      "fertilizerRecommendations": [
+        {
+          "nutrient": "Nitrogen (N)",
+          "status": "low",
+          "value": 30,
+          "recommendedFertilizer": "Urea (46% Nitrogen)",
+          "applicationRate": "75 kg/hectare"
+        },
+        {
+          "nutrient": "Phosphorus (P)",
+          "status": "optimal",
+          "value": 65,
+          "recommendedFertilizer": "Bone Meal / Maintenance dose",
+          "applicationRate": "15 kg/hectare"
+        },
+        {
+          "nutrient": "Potassium (K)",
+          "status": "optimal",
+          "value": 60,
+          "recommendedFertilizer": "Wood Ash / Maintenance dose",
+          "applicationRate": "15 kg/hectare"
+        }
+      ]
+    },
+    {
+      "_id": "q56xlcq5imq6ojidf",
+      "createdAt": "2026-06-09T13:32:48.963Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "yield",
+      "yieldCropType": "Rice",
+      "yieldArea": 10,
+      "yieldSoilQuality": "Good",
+      "temperature": 25,
+      "rainfall": 210,
+      "yieldEstimatedOutput": 53.32,
+      "yieldRevenue": 20261.6,
+      "yieldProfit": 12263.6
+    },
+    {
+      "_id": "mo807hku7mq7ixkqw",
+      "createdAt": "2026-06-10T03:43:33.704Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "fertilizer",
+      "nitrogen": 50,
+      "phosphorus": 40,
+      "potassium": 60,
+      "fertilizerRecommendations": [
+        {
+          "nutrient": "Nitrogen (N)",
+          "status": "low",
+          "value": 50,
+          "recommendedFertilizer": "Urea (46% Nitrogen)",
+          "applicationRate": "45 kg/hectare"
+        },
+        {
+          "nutrient": "Phosphorus (P)",
+          "status": "optimal",
+          "value": 40,
+          "recommendedFertilizer": "Bone Meal / Maintenance dose",
+          "applicationRate": "15 kg/hectare"
+        },
+        {
+          "nutrient": "Potassium (K)",
+          "status": "optimal",
+          "value": 60,
+          "recommendedFertilizer": "Wood Ash / Maintenance dose",
+          "applicationRate": "15 kg/hectare"
+        }
+      ]
+    },
+    {
+      "_id": "7y7pgcs3smq7jflj4",
+      "createdAt": "2026-06-10T03:57:34.528Z",
+      "userId": "a2x5rjiezmq6ni1ni",
+      "type": "fertilizer",
+      "nitrogen": 50,
+      "phosphorus": 40,
+      "potassium": 70,
+      "fertilizerRecommendations": [
+        {
+          "nutrient": "Nitrogen (N)",
+          "status": "low",
+          "value": 50,
+          "recommendedFertilizer": "Urea (46% Nitrogen)",
+          "applicationRate": "45 kg/hectare"
+        },
+        {
+          "nutrient": "Phosphorus (P)",
+          "status": "optimal",
+          "value": 40,
+          "recommendedFertilizer": "Bone Meal / Maintenance dose",
+          "applicationRate": "15 kg/hectare"
+        },
+        {
+          "nutrient": "Potassium (K)",
+          "status": "optimal",
+          "value": 70,
+          "recommendedFertilizer": "Wood Ash / Maintenance dose",
+          "applicationRate": "15 kg/hectare"
+        }
+      ]
+    }
+  ],
+  "crops": [
+    {
+      "_id": "iq8vtn42pmq6ni1ni",
+      "createdAt": "2026-06-09T13:03:41.022Z",
+      "name": "rice",
+      "scientificName": "Oryza sativa",
+      "description": "Rice is the primary staple food for a large part of the world's human population. It requires high water levels and warm temperatures to grow.",
+      "suitableSeason": "Kharif (Rainy Season)",
+      "waterRequirement": "High",
+      "expectedYield": "3.5 - 5.5 tons/hectare",
+      "marketDemand": "High",
+      "profitability": 85,
+      "growingTips": [
+        "Ensure soil remains flooded with 5-10 cm of water during early growth phases.",
+        "Maintain pH levels between 5.5 and 6.5.",
+        "Apply nitrogen-rich fertilizer in 3 split doses: at planting, tillering, and panicle initiation."
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1536304997881-a372c179924b?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "_id": "ky0yulnl5mq6ni1nj",
+      "createdAt": "2026-06-09T13:03:41.023Z",
+      "name": "maize",
+      "scientificName": "Zea mays",
+      "description": "Also known as corn, maize is a versatile cereal grain widely used for human food, animal feed, and bio-fuels. It grows well in well-drained soils.",
+      "suitableSeason": "Kharif / Spring",
+      "waterRequirement": "Medium",
+      "expectedYield": "4.0 - 7.0 tons/hectare",
+      "marketDemand": "High",
+      "profitability": 80,
+      "growingTips": [
+        "Ensure deep, loamy soils with excellent drainage.",
+        "Sow seeds at a depth of 3-5 cm with adequate spacing.",
+        "Provide regular irrigation during the silking and tasseling stages."
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "_id": "fueo21qqumq6ni1nj",
+      "createdAt": "2026-06-09T13:03:41.023Z",
+      "name": "chickpea",
+      "scientificName": "Cicer arietinum",
+      "description": "Chickpea is a nutritious legume high in protein. It is highly drought-resistant and plays a vital role in nitrogen fixation in crop rotation.",
+      "suitableSeason": "Rabi (Winter)",
+      "waterRequirement": "Low",
+      "expectedYield": "1.2 - 2.5 tons/hectare",
+      "marketDemand": "High",
+      "profitability": 75,
+      "growingTips": [
+        "Requires cool climatic conditions during growth and warm conditions at maturity.",
+        "Avoid waterlogging as it is highly sensitive to excess moisture.",
+        "Benefit from seed treatment with Rhizobium culture to enhance nitrogen fixation."
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1547050605-2f88537c9f4d?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "_id": "be9gu1tedmq6ni1nk",
+      "createdAt": "2026-06-09T13:03:41.024Z",
+      "name": "kidneybeans",
+      "scientificName": "Phaseolus vulgaris",
+      "description": "Kidney beans are a variety of common bean rich in protein and fiber. They grow best in mild temperature zones and require loamy soils.",
+      "suitableSeason": "Rabi / Spring",
+      "waterRequirement": "Medium",
+      "expectedYield": "1.5 - 2.8 tons/hectare",
+      "marketDemand": "Medium",
+      "profitability": 70,
+      "growingTips": [
+        "Maintain soil moisture but avoid muddy conditions to prevent root rot.",
+        "Avoid high nitrogen fertilizers as legumes fix their own nitrogen.",
+        "Keep fields weed-free during the first 4-6 weeks of sowing."
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1551248429-40975aa4de74?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "_id": "rxwexm3vhmq6ni1nk",
+      "createdAt": "2026-06-09T13:03:41.024Z",
+      "name": "pigeonpeas",
+      "scientificName": "Cajanus cajan",
+      "description": "Pigeon pea (Arhar) is a multi-purpose grain legume. It is highly drought-tolerant and produces food grain, green manure, and fuel wood.",
+      "suitableSeason": "Kharif (Rainy Season)",
+      "waterRequirement": "Low",
+      "expectedYield": "1.0 - 2.0 tons/hectare",
+      "marketDemand": "High",
+      "profitability": 72,
+      "growingTips": [
+        "Grows well on a wide range of soils, but prefers well-drained sandy loams.",
+        "Usually intercropped with maize, sorghum, or cotton.",
+        "Pruning can stimulate branching and increase pod formation."
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1600180758890-6b94519a8ba6?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "_id": "ijegz5eommq6ni1nl",
+      "createdAt": "2026-06-09T13:03:41.025Z",
+      "name": "mothbeans",
+      "scientificName": "Vigna aconitifolia",
+      "description": "Moth bean is an exceptionally drought-resistant legume, cultivated primarily in arid regions. It helps in conserving soil moisture and preventing erosion.",
+      "suitableSeason": "Kharif (Dry Summer)",
+      "waterRequirement": "Low",
+      "expectedYield": "0.6 - 1.2 tons/hectare",
+      "marketDemand": "Medium",
+      "profitability": 65,
+      "growingTips": [
+        "Can survive in extremely poor nutrient soils with minimal water.",
+        "Keep weeding minimal, as the crop acts as a natural mat cover.",
+        "Avoid water accumulation, as the crop is prone to fungal issues in humid conditions."
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1515942400420-2b98fed1f515?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "_id": "afpbzle3cmq6ni1nl",
+      "createdAt": "2026-06-09T13:03:41.025Z",
+      "name": "mungbean",
+      "scientificName": "Vigna radiata",
+      "description": "Mung bean (Green Gram) is a short-duration pulse crop. It is popular in crop rotations due to its fast maturation and low input needs.",
+      "suitableSeason": "Summer / Kharif",
+      "waterRequirement": "Low",
+      "expectedYield": "0.8 - 1.5 tons/hectare",
+      "marketDemand": "High",
+      "profitability": 78,
+      "growingTips": [
+        "Sow during warm temperatures as it requires warm weather for optimal yields.",
+        "Harvest pods when they turn dark brown/black and dry.",
+        "Requires very minimal irrigation; typically 2-3 waterings are sufficient."
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1589135306090-347f333c0f3c?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "_id": "ruvj57g9pmq6ni1nm",
+      "createdAt": "2026-06-09T13:03:41.026Z",
+      "name": "blackgram",
+      "scientificName": "Vigna mungo",
+      "description": "Black gram (Urad Dal) is a highly valued pulse crop in South Asia. It is nutrient-dense and improves soil health by fixing atmospheric nitrogen.",
+      "suitableSeason": "Kharif / Rabi",
+      "waterRequirement": "Medium",
+      "expectedYield": "1.0 - 1.8 tons/hectare",
+      "marketDemand": "High",
+      "profitability": 82,
+      "growingTips": [
+        "Prefers heavy, water-retaining clayey loam soils.",
+        "Ensure seeds are sown when the weather is consistently warm.",
+        "Monitor for pests like aphids during the vegetative stage."
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1626132647523-66f5bf380027?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "_id": "xdgghacmqmq6ni1nm",
+      "createdAt": "2026-06-09T13:03:41.026Z",
+      "name": "lentil",
+      "scientificName": "Lens culinaris",
+      "description": "Lentils are ancient pulse crops. They are bushy annual legumes cultivated for their lens-shaped seeds, which are packed with dietary protein.",
+      "suitableSeason": "Rabi (Winter)",
+      "waterRequirement": "Low",
+      "expectedYield": "1.2 - 2.0 tons/hectare",
+      "marketDemand": "High",
+      "profitability": 76,
+      "growingTips": [
+        "Grows best on cool temperatures and well-aerated soils.",
+        "Inoculate seeds with Rhizobium leguminosarum before planting.",
+        "Harvest when lower pods turn yellow-brown and seeds rattle inside."
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1547050605-2f88537c9f4d?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "_id": "d2lz74ynbmq6ni1nn",
+      "createdAt": "2026-06-09T13:03:41.027Z",
+      "name": "pomegranate",
+      "scientificName": "Punica granatum",
+      "description": "Pomegranate is a high-value fruit shrub. It is commercially lucrative, highly drought-tolerant, and thrives in dry, warm climates.",
+      "suitableSeason": "Perennial (Fruiting in specific seasons)",
+      "waterRequirement": "Medium",
+      "expectedYield": "15 - 20 tons/hectare",
+      "marketDemand": "High",
+      "profitability": 92,
+      "growingTips": [
+        "Prune trees annually to maintain structure and encourage fresh, fruiting wood.",
+        "Apply drip irrigation to deliver consistent water directly to root systems.",
+        "Protect fruit skins from sunburn during hot summer months."
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1582979512210-99b6a53386f9?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "_id": "tranf4pt7mq6ni1nn",
+      "createdAt": "2026-06-09T13:03:41.027Z",
+      "name": "banana",
+      "scientificName": "Musa acuminata",
+      "description": "Banana is a tropical herbaceous perennial plant cultivated for its sweet, nutritious fruit. It requires constant moisture, rich soil, and high nitrogen.",
+      "suitableSeason": "Perennial (Year-round)",
+      "waterRequirement": "High",
+      "expectedYield": "30 - 45 tons/hectare",
+      "marketDemand": "High",
+      "profitability": 88,
+      "growingTips": [
+        "Provide windbreaks to prevent leaf tearing from strong winds.",
+        "Apply heavy mulching to conserve moisture and add organic matter.",
+        "Remove excess suckers to concentrate growth on the main parent pseudostem."
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "_id": "0961ifzahmq6ni1nn",
+      "createdAt": "2026-06-09T13:03:41.027Z",
+      "name": "mango",
+      "scientificName": "Mangifera indica",
+      "description": "Known as the \"King of Fruits\", mango is a tropical stone-fruit tree. It requires a distinct dry period for flowering and fruit set.",
+      "suitableSeason": "Perennial (Summer Harvest)",
+      "waterRequirement": "Medium",
+      "expectedYield": "8 - 15 tons/hectare",
+      "marketDemand": "High",
+      "profitability": 95,
+      "growingTips": [
+        "Prefers deep, alluvial, well-drained soils.",
+        "Stop irrigation during the winter dry period to encourage flowering.",
+        "Protect young trees from frost damage in cold snaps."
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1553279768-865429fa0078?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "_id": "g47wndaoxmq6ni1no",
+      "createdAt": "2026-06-09T13:03:41.028Z",
+      "name": "grapes",
+      "scientificName": "Vitis vinifera",
+      "description": "Grapes are high-value deciduous woody vines. They are grown for fresh table fruit, raisins, and winemaking, requiring trellis support systems.",
+      "suitableSeason": "Perennial",
+      "waterRequirement": "Medium",
+      "expectedYield": "10 - 18 tons/hectare",
+      "marketDemand": "High",
+      "profitability": 94,
+      "growingTips": [
+        "Train vines on robust wire trellis systems to maximize sunlight intercept.",
+        "Prune heavily in the dormant winter season to manage yield and quality.",
+        "Manage humidity and airflow in the canopy to prevent downy mildew."
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1537640538966-79f369143f8f?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "_id": "vzkhzspx9mq6ni1no",
+      "createdAt": "2026-06-09T13:03:41.028Z",
+      "name": "watermelon",
+      "scientificName": "Citrullus lanatus",
+      "description": "Watermelon is a scrambling vine crop producing large, sweet, thirst-quenching fruits. It thrives in hot weather and sandy-loam soils.",
+      "suitableSeason": "Summer",
+      "waterRequirement": "Medium",
+      "expectedYield": "25 - 40 tons/hectare",
+      "marketDemand": "High",
+      "profitability": 82,
+      "growingTips": [
+        "Grow in raised soil beds to ensure warm roots and excellent drainage.",
+        "Water deeply but infrequently to encourage strong root development.",
+        "Reduce watering 2 weeks prior to harvesting to increase sweetness."
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "_id": "6a4c2olyvmq6ni1np",
+      "createdAt": "2026-06-09T13:03:41.029Z",
+      "name": "muskmelon",
+      "scientificName": "Cucumis melo",
+      "description": "Muskmelon is a sweet, aromatic melon species. It is a warm-season crop requiring dry climates and sandy-loamy soils with rich organic matter.",
+      "suitableSeason": "Summer",
+      "waterRequirement": "Medium",
+      "expectedYield": "15 - 25 tons/hectare",
+      "marketDemand": "Medium",
+      "profitability": 78,
+      "growingTips": [
+        "Ensure soil temperature is above 20°C before planting.",
+        "Pinch off growing tips of vines to encourage secondary lateral fruiting branches.",
+        "Place cardboard/straw underneath developing melons to prevent soil rot."
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1571244856002-3f14064d845e?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "_id": "g9nyfioq9mq6ni1np",
+      "createdAt": "2026-06-09T13:03:41.029Z",
+      "name": "apple",
+      "scientificName": "Malus domestica",
+      "description": "Apples are temperate deciduous orchard trees. They require winter chilling periods to break bud dormancy and thrive in fertile, loamy soils.",
+      "suitableSeason": "Perennial (Autumn Harvest)",
+      "waterRequirement": "Medium",
+      "expectedYield": "20 - 30 tons/hectare",
+      "marketDemand": "High",
+      "profitability": 90,
+      "growingTips": [
+        "Requires cross-pollination; ensure compatible pollinizer varieties are planted nearby.",
+        "Apply winter pruning to shape the open-center canopy for sunlight penetration.",
+        "Thin out young apple clusters in early summer to ensure large fruit size."
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "_id": "eckhbt4udmq6ni1nq",
+      "createdAt": "2026-06-09T13:03:41.030Z",
+      "name": "orange",
+      "scientificName": "Citrus sinensis",
+      "description": "Oranges are evergreen citrus trees producing juicy, acidic-sweet fruits packed with Vitamin C. They prefer subtropical/tropical conditions.",
+      "suitableSeason": "Perennial",
+      "waterRequirement": "Medium",
+      "expectedYield": "18 - 28 tons/hectare",
+      "marketDemand": "High",
+      "profitability": 87,
+      "growingTips": [
+        "Avoid planting in low-lying frost pockets, as citrus is cold-sensitive.",
+        "Apply micronutrients (Zinc, Iron, Manganese) via foliar sprays annually.",
+        "Prune the lower skirts of the tree to prevent soil-borne fungal infections."
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "_id": "j4in5dglbmq6ni1nq",
+      "createdAt": "2026-06-09T13:03:41.030Z",
+      "name": "papaya",
+      "scientificName": "Carica papaya",
+      "description": "Papaya is a fast-growing, short-lived herbaceous tree. It yields large melon-like orange fruits and thrives in warm, frost-free environments.",
+      "suitableSeason": "Perennial (Quick Yields)",
+      "waterRequirement": "Medium",
+      "expectedYield": "40 - 60 tons/hectare",
+      "marketDemand": "Medium",
+      "profitability": 84,
+      "growingTips": [
+        "Highly sensitive to waterlogging; construct mounds or planting ridges for drainage.",
+        "Remove male trees (except 1 per 10 females for pollination) to maximize yield.",
+        "Harvest fruit when skin develops yellow streaks."
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1526318896980-cf78c088247c?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "_id": "vgk6c1o3qmq6ni1nq",
+      "createdAt": "2026-06-09T13:03:41.030Z",
+      "name": "coconut",
+      "scientificName": "Cocos nucifera",
+      "description": "Coconut palm is a coastal monocot tree. It produces nutritious nut meat, milk, and oil, thriving in sandy soils, high humidity, and warm weather.",
+      "suitableSeason": "Perennial (Year-round Harvest)",
+      "waterRequirement": "Medium",
+      "expectedYield": "80 - 150 nuts/tree/year",
+      "marketDemand": "High",
+      "profitability": 89,
+      "growingTips": [
+        "Thrives in soils with high organic matter, salinity, and proximity to sea coasts.",
+        "Apply potash-rich fertilizers, as coconuts consume heavy quantities of potassium.",
+        "Keep palm basins clean and weeded to prevent red palm weevil infestations."
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1543158019-3253b27b9c9f?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "_id": "pcx9fana4mq6ni1nr",
+      "createdAt": "2026-06-09T13:03:41.031Z",
+      "name": "cotton",
+      "scientificName": "Gossypium hirsutum",
+      "description": "Cotton is a soft, fluffy staple fiber grown as a shrub. It is the primary natural fiber crop worldwide, requiring high sun exposure and heat.",
+      "suitableSeason": "Kharif",
+      "waterRequirement": "Medium",
+      "expectedYield": "2.0 - 3.5 tons/hectare",
+      "marketDemand": "High",
+      "profitability": 83,
+      "growingTips": [
+        "Requires a long frost-free period, plenty of sunshine, and dry weather for boll cracking.",
+        "Control weed growth during early stages to avoid light competition.",
+        "Keep monitoring for bollworms, which are major threats to the harvest."
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1594761053050-44ccfc07e8ef?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "_id": "qeg9gqrggmq6ni1nr",
+      "createdAt": "2026-06-09T13:03:41.031Z",
+      "name": "jute",
+      "scientificName": "Corchorus olitorius",
+      "description": "Jute is a long, soft, shiny bast fiber spun into coarse, strong threads. It is biodegradable and thrives in humid delta regions.",
+      "suitableSeason": "Kharif (Rainy Season)",
+      "waterRequirement": "High",
+      "expectedYield": "2.2 - 3.2 tons/hectare",
+      "marketDemand": "Medium",
+      "profitability": 70,
+      "growingTips": [
+        "Grows best in alluvial soils with warm, humid weather and standing water availability.",
+        "Harvest at the flowering stage (100-120 days) for optimal fiber quality.",
+        "Submerge stalks in slow-flowing water (retting) for 15-20 days to extract fiber."
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1605000797439-7ab14358b3e6?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "_id": "ijrqep7crmq6ni1ns",
+      "createdAt": "2026-06-09T13:03:41.032Z",
+      "name": "coffee",
+      "scientificName": "Coffea arabica",
+      "description": "Coffee is a highly valuable beverage crop. It is grown as an understory shrub in tropical highlands, requiring shade and rich volcanic soils.",
+      "suitableSeason": "Perennial",
+      "waterRequirement": "High",
+      "expectedYield": "1.5 - 2.5 tons/hectare",
+      "marketDemand": "High",
+      "profitability": 96,
+      "growingTips": [
+        "Grow under canopy shade trees to protect leaves from scorching sun.",
+        "Requires deep, slightly acidic soils (pH 6.0 - 6.5) with rich humus.",
+        "Regularly prune secondary shoots to stimulate heavy berry production."
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80"
+    }
+  ]
+}

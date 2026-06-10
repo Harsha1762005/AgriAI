@@ -1,0 +1,9 @@
+{
+  "name": "agriai-root",
+  "version": "1.0.0",
+  "description": "Root orchestration for AgriAI platform",
+  "private": true,
+  "scripts": {
+    "dev": "node run-all.js"
+  }
+}

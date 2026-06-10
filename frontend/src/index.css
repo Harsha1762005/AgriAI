@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply font-sans bg-slate-50 text-slate-900 transition-colors duration-300;
+  }
+
+  body.dark {
+    @apply bg-slate-950 text-slate-100;
+  }
+}
+
+/* Premium Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 rounded-full transition-colors duration-200;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  @apply bg-slate-800;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-slate-400;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  @apply bg-slate-700;
+}
+
+/* Glassmorphism Styles */
+.glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.04);
+}
+
+.dark .glass-card {
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+.glass-input {
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  backdrop-filter: blur(4px);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.dark .glass-input {
+  background: rgba(30, 41, 59, 0.4);
+  border: 1px solid rgba(51, 65, 85, 0.5);
+  backdrop-filter: blur(4px);
+  color: white;
+}
+
+.glass-input:focus {
+  @apply outline-none ring-2 ring-emerald-500/20 border-emerald-500 bg-white/90;
+}
+
+.dark .glass-input:focus {
+  @apply outline-none ring-2 ring-emerald-500/30 border-emerald-500 bg-slate-900/90;
+}
+
+/* Interactive Gradient Backgrounds */
+@keyframes gradient-bg {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animated-gradient {
+  background: linear-gradient(-45deg, #10b981, #0ea5e9, #059669, #0284c7);
+  background-size: 400% 400%;
+  animation: gradient-bg 15s ease infinite;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-emerald-500 via-teal-500 to-sky-500;
+}
+
+/* Skeleton Loading Animation */
+@keyframes pulse-light {
+  0%, 100% { opacity: 1; }
+  50% { opacity: .4; }
+}
+
+.skeleton {
+  animation: pulse-light 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  @apply bg-slate-200 dark:bg-slate-800;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
