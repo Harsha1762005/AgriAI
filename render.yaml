@@ -5,7 +5,7 @@ services:
     plan: free
     repo: https://github.com/Harsha1762005/AgriAI.git
     branch: main
-    buildCommand: cd backend && npm install && npm run build
+    buildCommand: cd backend && npm install --include=dev && npm run build
     startCommand: cd backend && node dist/server.js
     envVars:
       - key: NODE_ENV
