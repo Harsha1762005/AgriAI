@@ -79,8 +79,9 @@ export const HistoryModule: React.FC = () => {
 
   const handleExportCSV = () => {
     const token = localStorage.getItem('token');
+    const baseUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000';
     // Direct link trigger
-    window.open(`http://localhost:5000/api/history/export/csv?token=${token}`, '_blank');
+    window.open(`${baseUrl}/api/history/export/csv?token=${token}`, '_blank');
   };
 
   const handlePrint = () => {
