@@ -2,6 +2,7 @@ services:
   - type: web
     name: agriai-backend
     runtime: node
+    plan: free
     repo: https://github.com/Harsha1762005/AgriAI.git
     branch: main
     buildCommand: cd backend && npm install && npm run build
@@ -34,6 +35,7 @@ services:
   - type: web
     name: agriai-ml-service
     runtime: python
+    plan: free
     repo: https://github.com/Harsha1762005/AgriAI.git
     branch: main
     buildCommand: cd ml-service && python -m pip install -r requirements.txt
