@@ -19,6 +19,8 @@ services:
           type: web
           name: agriai-ml-service
           property: host
+      - key: NODE_VERSION
+        value: 20
   - type: web
     name: agriai-frontend
     runtime: static
@@ -32,6 +34,8 @@ services:
           type: web
           name: agriai-backend
           property: host
+      - key: NODE_VERSION
+        value: 20
   - type: web
     name: agriai-ml-service
     runtime: python
