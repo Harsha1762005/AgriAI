@@ -43,3 +43,5 @@ services:
     envVars:
       - key: PORT
         value: 5001
+      - key: PYTHON_VERSION
+        value: 3.11.9
