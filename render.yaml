@@ -1,7 +1,7 @@
 services:
   - type: web
     name: agriai-backend
-    env: node
+    runtime: node
     repo: https://github.com/Harsha1762005/AgriAI.git
     branch: main
     buildCommand: cd backend && npm install && npm run build
@@ -18,12 +18,13 @@ services:
           type: web
           name: agriai-ml-service
           property: host
-  - type: static
+  - type: web
     name: agriai-frontend
+    runtime: static
     repo: https://github.com/Harsha1762005/AgriAI.git
     branch: main
     buildCommand: cd frontend && npm install && npm run build
-    publishPath: frontend/dist
+    staticPublishPath: frontend/dist
     envVars:
       - key: VITE_API_URL
         fromService:
@@ -32,7 +33,7 @@ services:
           property: host
   - type: web
     name: agriai-ml-service
-    env: python
+    runtime: python
     repo: https://github.com/Harsha1762005/AgriAI.git
     branch: main
     buildCommand: cd ml-service && python -m pip install -r requirements.txt
