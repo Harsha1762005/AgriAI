@@ -10,15 +10,26 @@ services:
       - key: NODE_ENV
         value: production
       - key: JWT_SECRET
-        value: ${JWT_SECRET}
+        sync: false
       - key: MONGODB_URI
-        value: ${MONGODB_URI}
+        sync: false
+      - key: ML_SERVICE_URL
+        fromService:
+          type: web
+          name: agriai-ml-service
+          property: host
   - type: static
     name: agriai-frontend
     repo: https://github.com/Harsha1762005/AgriAI.git
     branch: main
     buildCommand: cd frontend && npm install && npm run build
     publishPath: frontend/dist
+    envVars:
+      - key: VITE_API_URL
+        fromService:
+          type: web
+          name: agriai-backend
+          property: host
   - type: web
     name: agriai-ml-service
     env: python
