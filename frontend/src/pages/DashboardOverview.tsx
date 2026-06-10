@@ -262,7 +262,7 @@ export const DashboardOverview: React.FC = () => {
           </div>
           <div className="h-64 w-full flex items-center justify-center">
             <ResponsiveContainer width="100%" height="100%">
-              <RadarChart cx="50%" cy="50%" radius="70%" data={radarData}>
+              <RadarChart cx="50%" cy="50%" outerRadius="70%" data={radarData}>
                 <PolarGrid stroke="#E2E8F0" className="dark:stroke-slate-800" />
                 <PolarAngleAxis dataKey="subject" stroke="#94A3B8" fontSize={10} />
                 <PolarRadiusAxis angle={30} domain={[0, 120]} stroke="#94A3B8" fontSize={8} />
