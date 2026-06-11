@@ -54,6 +54,11 @@ app.use('/api/history', historyRoutes);
 app.use('/api/weather', weatherRoutes);
 app.use('/api/admin', adminRoutes);
 
+// Root check
+app.get('/', (req, res) => {
+  res.status(200).json({ message: 'AgriAI API Server is running successfully.' });
+});
+
 // Health check endpoint
 app.get('/api/health', (req, res) => {
   res.status(200).json({ status: 'OK', isLocalDB, timestamp: new Date().toISOString() });

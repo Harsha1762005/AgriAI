@@ -7,6 +7,7 @@ services:
     branch: main
     buildCommand: cd backend && npm install --include=dev && npm run build
     startCommand: cd backend && node dist/server.js
+    healthCheckPath: /api/health
     envVars:
       - key: NODE_ENV
         value: production
@@ -45,6 +46,7 @@ services:
     branch: main
     buildCommand: cd ml-service && python -m pip install -r requirements.txt
     startCommand: cd ml-service && python app.py
+    healthCheckPath: /health
     envVars:
       - key: PORT
         value: 5001

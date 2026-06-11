@@ -20,6 +20,12 @@ if os.path.exists(MODEL_FILE):
 else:
     print(f"Warning: Model file {MODEL_FILE} not found. Please run train_model.py first.")
 
+@app.route('/', methods=['GET'])
+def index():
+    return jsonify({
+        'message': 'AgriAI ML Service is running successfully.'
+    }), 200
+
 @app.route('/health', methods=['GET'])
 def health():
     return jsonify({
