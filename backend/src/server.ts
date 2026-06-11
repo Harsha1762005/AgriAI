@@ -195,10 +195,14 @@ app.use((err: any, req: express.Request, res: express.Response, next: express.Ne
 
 // Start Server
 async function startServer() {
-  await connectDB();
-  await runSeeder();
-  app.listen(PORT, () => {
+  app.listen(PORT, async () => {
     console.log(`Server is running in ${process.env.NODE_ENV} mode on port ${PORT}`);
+    try {
+      await connectDB();
+      await runSeeder();
+    } catch (dbErr: any) {
+      console.error('⚠️ DB Initialization warning:', dbErr.message);
+    }
   });
 }
 
