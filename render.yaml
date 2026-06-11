@@ -35,7 +35,7 @@ services:
         destination: /index.html
     envVars:
       - key: VITE_API_URL
-        value: https://agriai-backend-v0dl.onrender.com
+        value: https://agriai-backend.onrender.com
       - key: NODE_VERSION
         value: 20
   - type: web
